@@ -1,0 +1,51 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+# Mi top 3 de artistas en 2019
+```{r}
+top2019<-c("Kendrick Lamar","Mac Miller", "Queens of the stone age")
+```
+
+# Antitop de artistas de 2019
+
+```{r}
+antitop2019<-c("Cristian Nodal", "Sabino", "Mago de oz")
+```
+
+# Mi Matriz 2019
+```{r}
+matriz2019<-cbind(top2019,antitop2019)
+matriz2019
+```
+
+
+
+# Mi top 3 de artistas en 2020
+```{r}
+top2020<-c("Mac Miller","Bad Bunny", "Micro TDH")
+```
+
+
+
+# Antitop de artistas de 2020
+
+```{r}
+antitop2020<-c("Sabino", "Natanael Cano", "Nirvana")
+```
+
+# Mi Matriz 2020
+```{r}
+matriz2020<-cbind(top2020,antitop2020)
+matriz2020
+```
+
+```{r}
+arreglo<-array(c(matriz2019,matriz2020),dim = c(3,2,2))
+arreglo
+```
+
+
+
+
